@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    background-color: #29A0B1;
+    color: #DDFFE7;
+    font-family: "Inter", sans-serif;
+    width: 840px;
+    margin: 0 auto;
+    font-size:16px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 18px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.link{
+    color: #DDFFE7;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link:hover{
+    color: white;
+}
+
+#welcome-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-intro{
+    width: 60%;
+    padding-top: 110px;
+}
+
+.welcome-intro > h1 {
+    font-size: 3rem;
+}
+
+.welcome-intro > p {
+    padding-top: 20px;
+}
+
+#welcome-pic{
+    width: 40%;
+    padding-left: 90px;
+   
+}
+
+#welcome-pic > img{
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 300px;
+    border: 3px solid #DDFFE7;
+    border-radius: 20%;
+}
+
+#projects{
+    margin-top: 40px;
+}
+
+#articles{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.project-tile{
+    max-width: 400px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+ .project-tile > img{
+    max-width: 100%; 
+    max-height: 400px;
+    border-radius: 10px;
+}
+
+.project-title > h3 {
+    padding : 5px 0;
+}
+
+#piano{
+    margin-top: 40px;
+}
+
+#logo-list{
+    display: flex;
+    justify-content: space-evenly;  
+    margin: 30px;
+    padding: 30px;
+    list-style-type: none;
+}
+
+.contact-list{
+    width: 40px;
+    text-decoration: none;
+}
+
+#logo-list:hover{
+    cursor: pointer;
+}
+
+   
